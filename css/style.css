@@ -1,0 +1,65 @@
+*, 
+*::before, 
+*::after { 
+
+box-sizing: border-box; 
+}
+h1{font-size: 3rem;text-align:center;}
+main{width: 800px;margin:30px auto;}
+h1{color: red; }
+p{color: #2f2a26; font-size: 1.5rem; text-align:center;}
+.overlay{background-color:rgba(0,0,0,0.5)}
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;}
+header{background-color: #f2f2f2;}
+section{padding: 1em; margin: 20px; background-color: #fff8f0; border-radius: 10px;}
+section {padding: 24 px; } p {margin: 24 px 0;}
+main {width: 960 px; margin: 30 px auto}
+
+.baner { display:block; width: 80%; padding: 20px; background-color: #f0f0f0;}
+.practice-nav {display: flex;flex-direction: row;}
+.practice-nav {display: flex; justify-content: center; align-items: center; height: 120px; border: 2px solid black;}
+display:inline-block;width:120px;
+height: 40px; 
+background-color: lightblue; 
+text-align: center; 
+line-height: 40px; 
+margin-right: 5px;} 
+.card { display: block; width: 200px; height: 100px; background-color: lightgreen; margin-top: 10px;}
+.practice-nav { display: flex; flex-direction: column; }
+.border-box example {box-sizing: border-box; width: 200px; padding: 20px; border: 5px solid black;}
+.content-sizing, 
+.border-sizing { 
+width: 300px; 
+padding: 20px; 
+border: 5px solid black; 
+background-color: lightgray; 
+margin-bottom: 10px;}
+.content-sizing {
+box-sizing: content-box;
+}
+.border-sizing {
+box-sizing: border-box;}
+.card{border: 2px solid #333;}.alert {border: 4px dashed crimson;}
+.underlined-heading {border-bottom: 3px solid currentcolor;}
+nav a {display:inline-block; width:100px; padding: 10px; text-align:center; background-color: #333; color:white;}
+.container {display: flex; align-items: center;height:auto}
+.practice-nav {display: flex; flex-direction: column;}
+.practice-nav { display: flex; justify-content: center; align-items: center; height: 120px; border: 2px solid black;}
+.card-container {display: flex; flex-wrap: wrap; gap: 20px;}
+.card {flex: 1 1 calc(50% - 20px); box-sizing: border-box; padding: 20px; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px;}   
+.card-row 
+{display: flex; gap: 10px; } 
+.card { flex:1;}
+.card:nth-child(2) {flex:2;}
+
+.practice-nav { display: flex; flex-direction: column; gap: 8px;}
+.practice-nav { flex-direction: row; justify-content: space-between;} 
+@media (min-width: 768px) { 
+.practice-nav { flex-direction: row; justify-content: space-between; } 
+
+@media (max-width: 1024px) {
+  .practice-nav {
+    flex-direction: column;
+    gap: 32px;}
+}
+
