@@ -15,12 +15,15 @@ main {width: 960 px; margin: 30 px auto}
 .baner { display:block; width: 80%; padding: 20px; background-color: #f0f0f0;}
 .practice-nav {display: flex;flex-direction: row;}
 .practice-nav {display: flex; justify-content: center; align-items: center; height: 120px; border: 2px solid black;}
-display:inline-block;width:120px;
-height: 40px; 
-background-color: lightblue; 
-text-align: center; 
-line-height: 40px; 
-margin-right: 5px;} 
+.practice-nav a {
+display: inline-block;
+width: 120px;
+height: 40px;
+background-color: lightblue;
+text-align: center;
+line-height: 40px;
+margin-right: 5px;
+}
 .card { display: block; width: 200px; height: 100px; background-color: lightgreen; margin-top: 10px;}
 .practice-nav { display: flex; flex-direction: column; }
 .border-box example {box-sizing: border-box; width: 200px; padding: 20px; border: 5px solid black;}
@@ -50,9 +53,11 @@ nav a {display:inline-block; width:100px; padding: 10px; text-align:center; back
 .card:nth-child(2) {flex:2;}
 .practice-nav { display: flex; flex-direction: column; gap: 8px;}
 .practice-nav { flex-direction: row; justify-content: space-between;} 
-@media (min-width: 768px) { 
-.practice-nav { flex-direction: row; justify-content: space-between; } 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
+practice-nav {
+flex-direction: row;
+justify-content: space-between;}
+}@media (max-width: 1024px) {
 .practice-nav {
 flex-direction: column;
 gap: 32px;}}
